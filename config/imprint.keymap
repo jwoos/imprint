@@ -23,6 +23,7 @@
 
         default {
             bindings = <
+&none             &none         &none     &none      &none      &none                       &none      &none           &none          &none             &none              &none
 &kp GRAVE         &kp N1        &kp N2    &kp N3     &kp N4     &kp N5                      &kp N6     &kp N7          &kp N8         &kp N9            &kp N0             &minus_equals
 &kp TAB           &kp Q         &kp W     &kp E      &kp R      &kp T                       &kp Y      &kp U           &kp I          &kp O             &kp P              &kp BSLH
 &kp ESCAPE        &kp A         &kp S     &kp D      &kp F      &kp G                       &kp H      &kp J           &kp K          &kp L             &kp SEMI           &kp SQT
@@ -35,6 +36,7 @@
 
         sub {
             bindings = <
+&none             &none         &none     &none      &none      &none                       &none      &none           &none          &none             &none              &none
 &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6            &kp F7          &kp F8    &kp F9        &kp F10    &kp F11  &kp F12
 &trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans    &trans        &trans     &trans   &trans
 &trans  &trans  &trans  &trans  &trans  &trans            &kp LEFT_ARROW  &kp DOWN  &kp UP_ARROW  &kp RIGHT  &trans   &trans
@@ -47,6 +49,7 @@
 
         utilities {
             bindings = <
+&none             &none         &none     &none      &none      &none                       &none      &none           &none          &none             &none              &none
 &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans
@@ -59,6 +62,7 @@
 
         meta {
             bindings = <
+&none             &none         &none     &none      &none      &none                       &none      &none           &none          &none             &none              &none
 &bt BT_CLR   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4            &trans  &rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &trans           &trans           &trans
 &trans       &trans        &trans        &trans        &trans        &trans                  &trans  &rgb_ug RGB_HUI  &rgb_ug RGB_SAI  &rgb_ug RGB_BRI  &rgb_ug RGB_SPI  &trans
 &trans       &trans        &trans        &trans        &trans        &trans                  &trans  &rgb_ug RGB_HUD  &rgb_ug RGB_SAD  &rgb_ug RGB_BRD  &rgb_ug RGB_SPD  &trans
