@@ -90,5 +90,9 @@
         // make this trackball output scrolling events by default instead of cursor movement,
         <&zip_xy_to_scroll_mapper>,
         // multiply sensitivity by 1, divide by 4 (make it slower for scrolling),
-        <&zip_scroll_scaler 1 4>;
+        <&zip_scroll_scaler 1 6>,
+        // invert vertical scrolling so that the view moves in the same direction as the top of the trackball.,
+        <&zip_scroll_transform INPUT_TRANSFORM_Y_INVERT>;
+
+};
 };
