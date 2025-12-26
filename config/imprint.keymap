@@ -48,7 +48,7 @@
 &kp LSHFT         &kp Z         &kp X     &kp C        &kp V      &kp B                       &kp N      &kp M           &kp COMMA      &kp DOT           &kp FSLH           &kp RSHFT
 &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LGUI  &copy_paste  &scrnsht                                          &kp RIGHT_META  &kp RIGHT_ALT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp RIGHT_CONTROL
                                                        &kp SPACE  &kp BACKSPACE  &kp ENTER    &kp ENTER  &kp SPACE       &kp BACKSPACE
-                                                       &sl 2      &sl 2          &mo 3        &mo 3      &sl 2           &sl 2
+                                                       &sl 1      &sl 2          &mo 3        &mo 3      &sl 2           &sl 1
             >;
         };
 
@@ -106,7 +106,7 @@
 
 &trackball_peripheral_listener {
     input-processors =
-        // activate layer 4 and disables within 1s of no movement
+        // activate layer 4 and disables within 1s of no movement,
         <&zip_temp_layer 4 1000>;
 };
 
@@ -114,10 +114,10 @@
 
 &trackball_central_listener {
     input-processors =
-        // make this trackball output scrolling events by default instead of cursor movement,,,
+        // make this trackball output scrolling events by default instead of cursor movement,,,,
         <&zip_xy_to_scroll_mapper>,
-        // multiply sensitivity by 1, divide by 10 (make it slower for scrolling),,,
+        // multiply sensitivity by 1, divide by 10 (make it slower for scrolling),,,,
         <&zip_scroll_scaler 1 20>,
-        // invert vertical scrolling so that the view moves in the same direction as the top of the trackball,,,
+        // invert vertical scrolling so that the view moves in the same direction as the top of the trackball,,,,
         <&zip_scroll_transform INPUT_TRANSFORM_Y_INVERT>;
 };
