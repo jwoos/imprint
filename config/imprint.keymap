@@ -24,7 +24,7 @@
             label = "COPY_PASTE";
             #binding-cells = <0>;
             tapping-term-ms = <250>;
-            bindings = <&kp LG(C)>, <&kp LG(P)>;
+            bindings = <&kp LG(C)>, <&kp LG(V)>;
         };
 
         scrnsht: scrnsht {
@@ -106,7 +106,7 @@
 
 &trackball_peripheral_listener {
     input-processors =
-        // activate layer 4 and disables within 1s of no movement,
+        // activate layer 4 and disables within 1s of no movement,,
         <&zip_temp_layer 4 1000>;
 };
 
@@ -114,10 +114,10 @@
 
 &trackball_central_listener {
     input-processors =
-        // make this trackball output scrolling events by default instead of cursor movement,,,,
+        // make this trackball output scrolling events by default instead of cursor movement,,,,,
         <&zip_xy_to_scroll_mapper>,
-        // multiply sensitivity by 1, divide by 10 (make it slower for scrolling),,,,
+        // multiply sensitivity by 1, divide by 10 (make it slower for scrolling),,,,,
         <&zip_scroll_scaler 1 20>,
-        // invert vertical scrolling so that the view moves in the same direction as the top of the trackball,,,,
+        // invert vertical scrolling so that the view moves in the same direction as the top of the trackball,,,,,
         <&zip_scroll_transform INPUT_TRANSFORM_Y_INVERT>;
 };
