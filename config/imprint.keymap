@@ -16,14 +16,14 @@
             #binding-cells = <0>;
             bindings = <&kp MINUS>, <&kp EQUAL>;
 
-            tapping-term-ms = <250>;
+            tapping-term-ms = <200>;
         };
 
         copy_paste: copy_paste {
             compatible = "zmk,behavior-tap-dance";
             label = "COPY_PASTE";
             #binding-cells = <0>;
-            tapping-term-ms = <250>;
+            tapping-term-ms = <200>;
             bindings = <&kp LG(C)>, <&kp LG(V)>;
         };
 
@@ -33,7 +33,7 @@
             #binding-cells = <0>;
             bindings = <&kp LS(LG(LC(NUMBER_4)))>, <&kp LS(LG(NUMBER_4))>;
 
-            tapping-term-ms = <250>;
+            tapping-term-ms = <200>;
         };
     };
 
