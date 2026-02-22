@@ -11,4 +11,4 @@ if [[ ! -d dev_env ]]; then
 fi
 
 source dev_env/bin/activate
-python3 scripts/run.py
+python3 scripts/run.py $@
