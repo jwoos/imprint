@@ -14,3 +14,4 @@ Web based GUI editor to make life a little easier: https://nickcoutsos.github.io
 These are referenced in `west.yml`
 
 The Github build workflow is just the one in zmk.
+
