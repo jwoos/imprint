@@ -5,8 +5,9 @@ This uses ZMK.
 
 
 ## Editor
-- cyboard specific studio: https://studio.cyboard.digital/
-- legacy web based GUI editor to make life a little easier: https://nickcoutsos.github.io/keymap-editor/
+- GUI site for ZMK configs: https://nickcoutsos.github.io/keymap-editor/
+- cyboard specific studio: https://studio.cyboard.digital/ (can't use since I have more configs)
+
 
 ## Build References
 - https://github.com/zmkfirmware/zmk
